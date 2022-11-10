@@ -1,0 +1,17 @@
+@mixin nav{
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+@mixin btn{
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border: 2px solid #3043A9;
+  background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+  border-radius: 28px;
+  width: 157px;
+  height: 53px;
+}
