@@ -1,35 +1,148 @@
 @import "mixin";
 @import "global";
-#header{
+
+#header {
   position: fixed;
   width: 100%;
-  height: 1314px;
+  height: 80px;
   background: #161D2F;
-  .header{
+  z-index: 999;
+  .header {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: 15px 0;
-    &--title{
-      h1{
+
+    &--title {
+      h1 {
         font-weight: 800;
         font-size: 24px;
         line-height: 36px;
         color: #FFFFFF;
       }
     }
-    &--nav{
+
+    &--nav {
       display: flex;
-      a{
+
+      a {
         margin: 0 20px;
-        h1{@include nav;}
+
+        h1 {
+          @include nav;
+        }
       }
     }
-    &--btn{
-      button{
+
+    &--btn {
+      button {
         @include btn;
       }
+    }
+
+    &--burger{
+      display: none;
+      .inputcheck{
+        display: none;
+      }
+      .burgerlabel{
+        position: absolute;
+        color: white;
+        top: 40px;
+        right: 50px;
+      }
+      .icon-burger{
+         font-size: 27px;
+       }
+      &__block{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+        transition: .7s;
+        opacity: 0;
+        .icon-close{
+        font-size: 27px;
+      }
+        .burgerclose{
+          position: absolute;
+          color: white;
+          top: 40px;
+          right: 50px;
+        }
+         &--menu{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .header-block1{
+            display: flex;
+          }
+          .header-block2{
+            display: flex;
+            padding: 20px 0;
+          }
+          .header-block3{
+            display: flex;
+          }
+
+        }
+      }
+      #burger:checked ~ .burger-block{
+        opacity: 1;
+      }
+      #burger:checked ~ .burgerlabel{
+        display: none;
+      }
+    }
+  }
+}
+
+#hero {
+  background: #161D2F;
+  height: 1200px;
+  padding: 100px 0 0;
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    &--sp {
+    span{font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;}
+    }
+    &--title {
+      h1{font-weight: 700;
+  font-size: 62px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;}
+    }
+    &--poragraf {
+      padding: 20px 0;
+
+      p{font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+      }
+    }
+    &--btn {
+      padding: 0 0 30px;
+      button{
+        margin: 0 10px;
+        @include btn;
+      }
+    }
+    &--video {
     }
   }
 }
