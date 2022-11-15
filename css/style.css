@@ -77,6 +77,12 @@ html {
 #header .header--burger {
   display: none;
 }
+#header .header--burger #burger:checked ~ .header--burger__block {
+  opacity: 1;
+}
+#header .header--burger #burger:checked ~ .burgerlabel {
+  display: none;
+}
 #header .header--burger .inputcheck {
   display: none;
 }
@@ -124,12 +130,6 @@ html {
 }
 #header .header--burger__block--menu .header-block3 {
   display: flex;
-}
-#header .header--burger #burger:checked ~ .burger-block {
-  opacity: 1;
-}
-#header .header--burger #burger:checked ~ .burgerlabel {
-  display: none;
 }
 
 #hero {
@@ -182,6 +182,10 @@ html {
   border-radius: 28px;
   width: 157px;
   height: 53px;
+}
+#hero .hero--video iframe {
+  width: 980px;
+  height: 700px;
 }
 
 /*# sourceMappingURL=style.css.map */
