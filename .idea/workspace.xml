@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e5e46e-6193-4211-8845-91f7f9fff83b" name="Changes" comment="">
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/media.scss" afterDir="false" />
+
       <change afterPath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/LICENSE.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/css/all.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/css/all.min.css" afterDir="false" />
@@ -72,6 +77,7 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +131,11 @@
       <workItem from="1668309489226" duration="3563000" />
       <workItem from="1668359161677" duration="22000" />
       <workItem from="1668482774617" duration="29000" />
+
+      <workItem from="1668482880660" duration="14235000" />
+
       <workItem from="1668482880660" duration="11384000" />
+
     </task>
     <servers />
   </component>
