@@ -25,10 +25,8 @@
 
     &--nav {
       display: flex;
-
       a {
         margin: 0 20px;
-
         h1 {
           @include nav;
         }
@@ -43,6 +41,12 @@
 
     &--burger{
       display: none;
+      #burger:checked ~ .header--burger__block{
+        opacity: 1;
+      }
+      #burger:checked ~ .burgerlabel{
+        display: none;
+      }
       .inputcheck{
         display: none;
       }
@@ -55,7 +59,7 @@
       .icon-burger{
          font-size: 27px;
        }
-      &__block{
+       &__block{
         position: absolute;
         right: 0;
         top: 0;
@@ -89,15 +93,9 @@
           .header-block3{
             display: flex;
           }
-
         }
       }
-      #burger:checked ~ .burger-block{
-        opacity: 1;
-      }
-      #burger:checked ~ .burgerlabel{
-        display: none;
-      }
+
     }
   }
 }
@@ -142,7 +140,9 @@
         @include btn;
       }
     }
-    &--video {
+    &--video iframe {
+      width: 980px;
+      height: 700px;
     }
   }
 }

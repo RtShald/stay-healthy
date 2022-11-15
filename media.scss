@@ -1,4 +1,11 @@
 @media (max-width: 1440px) {
+  #header {
+    height: 75px;
+    }
+  #hero .hero--video iframe {
+    width: 980px;
+    height: 605px;
+  }
   #header .header--nav a {
     margin: 0 37px;
   }
@@ -7,9 +14,9 @@
   #header .header--nav a {
     margin: 0 25px;
   }
-  #header .hero--video iframe{
-    width: 827px;
-    height: 566px;
+  #hero .hero--video iframe {
+    width: 902px;
+    height: 577px;
   }
 }
 @media (max-width: 1024px) {
@@ -32,32 +39,173 @@
     width: 116px;
     height: 42px;
   }
-  iframe[AttributesStyle] {
-  width: 500px;
-  height: 300px;
-}
+  #hero .hero--video iframe {
+    width: 580px;
+    height: 300px;
+  }
 }
 @media (max-width: 992px) {
+  #hero .hero--title h1 {
+    font-size: 44px;
+  }
 }
 @media (max-width: 768px) {
-  .header--burger{
+  #header{
+    .header--burger{
     display: block;
   }
-  .header--nav{
-    display: none;
+    .header--nav{
+      display: none;
+    }
+    .header--btn{
+      padding: 0 15px 0 0;
+    }
+    .hero--title h1 {
+      font-size: 40px;
+    }
+    .header--burger .burgerlabel {
+      top: 26px;
+    }
+    .header--btn {
+      padding: 3px 0 0 305px;
+    }
+  }
+
+  #hero {
+    height: 783px;
+    .hero--title h1 {
+      font-size: 37px;
+    }
+    .hero--poragraf p {
+      font-size: 13px;
+    }
+    .hero--video iframe {
+      width: 500px;
+      height: 300px;
+    }
   }
 }
 @media (max-width: 576px) {
-
+  #header .header--btn {
+    padding: 3px 0 0 124px;
+  }
+  #hero .hero--title h1 {
+    font-size: 30px;
+  }
+  #hero .hero--poragraf p {
+    font-size: 15px;
+    padding: 0 61px;
+  }
+  #header .header--btn button {
+    font-size: 16px;
+    width: 100px;
+    height: 38px;
+  }
+  #hero .hero--video iframe {
+    width: 369px;
+    height: 236px;
+  }
+  #hero {
+    height: 737px;
+  }
+  #hero .hero {
+    padding: 0 0;
+  }
 }
 @media (max-width: 451px) {
-
+  #header .header--btn {
+    padding: 3px 0 0 10px;
+  }
+  #hero .hero--title h1 {
+    font-size: 24px;
+  }
+  #hero .hero--sp span {
+    font-size: 13px;
+  }
+  #hero .hero--poragraf p {
+    font-size: 15px;
+    padding: 0 100px;
+  }
+  #header .header--btn button {
+    font-size: 15px;
+    width: 87px;
+    height: 36px;
+  }
+  #hero .hero--btn button {
+    font-size: 15px;
+    width: 97px;
+    height: 39px;
+  }
+  #hero .hero--video iframe {
+    width: 287px;
+    height: 170px;
+  }
 }
 @media (max-width: 400px) {
+  #header .header--btn {
+    padding: 3px 10px 0 0;
+  }
+  #header .header--title h1 {
+    font-size: 22px;
+  }
+  #hero .hero--title h1 {
+    font-size: 22px;
+  }
+  #hero {
+    height: 800px;
+  }
 }
 @media (max-width: 380px) {
-
+  #header .header--btn {
+    padding: 3px 20px 0 0;
+  }
+  #hero .hero--title h1 {
+    font-size: 20px;
+  }
+  #hero .hero--sp span {
+    font-size: 12px;
+  }
+  #hero .hero--btn button {
+    font-size: 14px;
+    width: 87px;
+    height: 35px;
+  }
+  #hero .hero--btn {
+    padding: 0 0 21px;
+  }
+  #hero {
+    height: 860px;
+  }
 }
 @media (max-width: 320px) {
-
+  #header .header--burger .burgerlabel {
+    top: 23px;
+    right: 20px;
+  }
+  #hero .hero--title h1 {
+    font-size: 17px;
+  }
+  #hero .hero--sp span {
+    font-size: 11px;
+  }
+  #hero .hero--poragraf p {
+    font-size: 15px;
+    padding: 0 48px;
+  }
+  #hero .hero--video iframe {
+    width: 222px;
+    height: 180px;
+  }
+  #hero {
+    height: 736px;
+    padding: 85px 0 0;
+  }
+  #hero .hero--btn button {
+    font-size: 13px;
+    width: 77px;
+    height: 33px;
+  }
+  #header {
+    height: 64px;
+  }
 }
