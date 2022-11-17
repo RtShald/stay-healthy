@@ -188,4 +188,177 @@ html {
   height: 700px;
 }
 
+#swiper .swiper--h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #262626;
+  text-align: center;
+  padding: 20px 0;
+}
+#swiper .swiper--h2 {
+  width: 590px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #222222;
+  text-align: center;
+  padding-left: 380px;
+  margin: 10px 0;
+}
+#swiper .swiper--group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#swiper .swiper--group__title img {
+  padding: 20px 0;
+}
+#swiper .swiper--group__title h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #222222;
+  padding: 10px 0;
+}
+#swiper .swiper--group__title h2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+}
+#swiper .swiper--group__title p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #4B4B4B;
+  width: 350px;
+  padding: 20px 0;
+}
+#swiper .swiper--group__title--icon {
+  display: flex;
+  align-items: center;
+}
+#swiper .swiper--group__title--icon a {
+  font-weight: 400;
+  font-size: 14px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #3043A9;
+  padding: 20px 0;
+  margin-left: 80px;
+}
+#swiper .swiper--group__title--icon__one {
+  color: #4a30a9;
+  padding: 0 10px;
+}
+
+#work .work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+#work .work--group__one img {
+  position: absolute;
+  margin-top: 200px;
+}
+#work .work--group__one--btn {
+  position: absolute;
+}
+#work .work--group__one--btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  background: #161D2F;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+#work .work--group__one--btn button .icon {
+  width: 40px;
+  height: 40px;
+  margin-left: -40px;
+}
+#work .work--group__two img {
+  margin-left: 120px;
+}
+#work .work--group__two--btn {
+  position: absolute;
+}
+#work .work--group__two--btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background: #262626;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-left: 380px;
+  margin-top: 145px;
+}
+#work .work--group__two--btn button .icon {
+  width: 40px;
+  height: 40px;
+}
+#work .work--about {
+  padding-top: 180px;
+}
+#work .work--about h1 {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222222;
+}
+#work .work--about h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #161D2F;
+  width: 445px;
+  padding: 20px 0;
+}
+#work .work--about p {
+  padding: 20px 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #222222;
+  width: 445px;
+}
+#work .work--about p span {
+  color: rgba(0, 0, 0, 0.97);
+  font-weight: 400;
+}
+#work .work--about button {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+  border-radius: 28px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+#work .work--about button:hover {
+  background: blue;
+  border: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
