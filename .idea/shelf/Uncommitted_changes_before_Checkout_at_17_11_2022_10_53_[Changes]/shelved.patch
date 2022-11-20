@@ -1,0 +1,56 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -3,8 +3,35 @@
+   <component name="ChangeListManager">
+     <list default="true" id="93e5e46e-6193-4211-8845-91f7f9fff83b" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/media.scss" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_animated.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_bordered-pulled.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_core.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_fixed-width.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_functions.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_icons.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_list.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_mixins.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_rotated-flipped.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_screen-reader.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_shims.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_sizing.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_stacked.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/_variables.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/brands.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/brands.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/brands.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/fontawesome.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/fontawesome.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/regular.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/regular.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/solid.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/solid.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/v4-shims.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/css/v4-shims.css.map" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/fontawesome.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/regular.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/solid.scss" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/fontawesome-free-6.2.0-web/scss/v4-shims.scss" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -58,7 +85,11 @@
+       <workItem from="1668309489226" duration="3563000" />
+       <workItem from="1668359161677" duration="22000" />
+       <workItem from="1668482774617" duration="29000" />
+-      <workItem from="1668482880660" duration="14235000" />
++      <workItem from="1668482880660" duration="15083000" />
++      <workItem from="1668532114450" duration="89000" />
++      <workItem from="1668609578596" duration="11000" />
++      <workItem from="1668609772316" duration="7000" />
++      <workItem from="1668655409092" duration="3417000" />
+     </task>
+     <servers />
+   </component>

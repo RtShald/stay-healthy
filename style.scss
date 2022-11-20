@@ -47,6 +47,7 @@
 
       #burger:checked ~ .header--burger__block {
         opacity: 1;
+        display: block;
       }
 
       #burger:checked ~ .burgerlabel {
@@ -69,6 +70,7 @@
       }
 
       &__block {
+        display: none;
         position: absolute;
         right: 0;
         top: 0;
@@ -90,8 +92,8 @@
         }
 
         &--menu {
-          height: 100%;
           display: flex;
+          height: 100%;
           flex-direction: column;
           align-items: center;
           justify-content: center;
